@@ -1,0 +1,19 @@
+  118  cd /tmp
+  119  mkdir folder_1
+  120  cd folder_1
+  121  mkdir folder_2
+  122  mkdir folder_3
+  123  rm -r folder_2
+  124  touch File_1.txt
+  125  touch File_2.txt
+  126  mv File_1.txt OS_B.txt
+  127  ls -l folder_1
+  128  ls foloder_1/
+  129  ls -l folder_1/
+  130  ls
+  131  ls -l
+  132  chmod go=rx File_2.txt
+  133  head -c 15 File_2.txt | tail -c 11
+  134  touch Info.txt
+  135  grep -o 'school' Info.txt | wc -l
+  136  3
